@@ -50,16 +50,16 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     }
 
     private void initial() {
-        modelRcyclers.add(new ModelRcycler(R.drawable.kirish,"Kirish","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun...","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/kirish.pdf"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.kirish,"Kirish","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun...",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.umk,"O'QUV USLUBIY MAJMUA","(5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.nam_fan,"NA'MUNAVIY FAN DASTUR","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.fan_das,"ISHCHI O'QUV DASTUR","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.mustaqil,"MUSTAQIL TA'LIM UCHUN USLUBIY KO'RSATMA","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.izohli,"IZOHLI LUG'AT (GLOSARIY)                                         ","",""));
-        modelRcyclers.add(new ModelRcycler(R.drawable.test1,"MAVZU YUZASIDAN TEST SAVOLLARI","","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/izohli.pdf"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.test2,"FAN YUZASIDAN TEST SAVOLLARI","","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/ilovalar.pdf"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.test1,"MAVZU YUZASIDAN TEST SAVOLLARI","",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.test2,"FAN YUZASIDAN TEST SAVOLLARI","",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.adabiyot,"ADABIYOTLAR","Azamat Ziyo. O‘zbek davlatchiligi tarixi: (Eng qadimgi davrdan Rossiya bosqiniga qadar). T., Sharq. 2000.\n" +
-                " Sagdullaev A.S., Mavlonov O‘. O‘zbekistonda davlat boshqaruvi tarixi. – T.: Akademiya, 2006.\n","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/adabiyot.pdf"));
+                " Sagdullaev A.S., Mavlonov O‘. O‘zbekistonda davlat boshqaruvi tarixi. – T.: Akademiya, 2006.\n",""));
 
 
     }
