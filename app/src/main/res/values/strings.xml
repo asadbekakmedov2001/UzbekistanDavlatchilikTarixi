@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">O`zbekiston davlatchilik tarixi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dilarom Yakubova</string>
+    <string name="nav_header_subtitle">Denov tadbirkorlik va pedagogika instituti</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Asosiy qisim</string>
+    <string name="menu_gallery">5-semestr uchun</string>
+    <string name="menu_semestr">6-semestr uchun</string>
+    <string name="menu_slideshow">Muallif haqida</string>
+    <string name="search_view">Search view</string>
+    <string name="xumoyiddin_turayev">Dilarom Yakubova</string>
+    <string name="xumoyiddinturayev">\@Ismail_Allakov</string>
+    <string name="termiz_davlat_universiteti">Denov tadbirkorlik va pedagogika instituti</string>
+    <string name="muallif_fish">NAZIROV BAXTIYOR SAFAROVICH</string>
+    <string name="muallif_haqida">Nazirov Baxtiyor Safarovich 1985 yil 1-oktyabrda Surxondaryo viloyati Denov tumanida tug‘ulgan. Oilali, 2 nafar farzandi bor. O‘zbekiston Milliy universitetini Tarix fakultetini 2004-2008 yil bakalavr, 2009-2011 yil magistratura bosqichini tamomlagan.
+Mehnat faoliyatini 2008 yilda O‘zDJTU qoshidagi 3-son Uchtepa akademik litseyida tarix fani o‘qituvchisi lavozimida boshlagan. 2011-2018 yillarda TerDU qoshidagi 3-son Denov akademik litseyida tarix fani o‘qituvchisi, 2018-2019 yillarda  Termiz davlat universiteti Denov filiali maktabgacha ta’lim va  gumanitar fanlar kafedrasi o‘qituvchisi, 2019-2020 yillarda Termiz davlat universiteti Denov filiali maktabgacha va boshlang‘ich ta’lim kafedrasi o‘qituvchisi, 2020 yildan boshlab Denov tadbirkorlik va pedagogika instituti Tarix va falsafa kafedrasi katta o‘qituvchisi lavozimida ishlab kelmoqda.
+Nazirov Baxtiyor 2022 yilda O‘zbekiston tarixi – 07.00.01 ixtisosligi bo‘yicha “O‘zbekistonda jismoniy madaniyat va sport tarixi (XX asr – XXI asr boshlarida Surxon vohasi misolida)” mavzusidagi dissertatsiyasini muvaffaqiyatli himoya qilib Tarix fanlari bo‘yicha falsafa doktori (PhD) ilmiy darajasini olgan. Hozirgi kunga qadar 35 dan ortiq ilmiy maqola va tezeslari, 3 ta risolasi chop etilgan.
+</string>
+</resources>
