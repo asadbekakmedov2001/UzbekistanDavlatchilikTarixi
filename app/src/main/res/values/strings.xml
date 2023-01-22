@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">O`zbekiston davlatchilik tarixi</string>
+    <string name="app_name">O`zbekiston tarixi</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">BAXTIYOR NAZIROV SAFAROVICH</string>
@@ -11,9 +11,7 @@
     <string name="menu_gallery">5-semestr uchun</string>
     <string name="menu_semestr">6-semestr uchun</string>
     <string name="menu_slideshow">Muallif haqida</string>
-    <string name="search_view">Search view</string>
     <string name="xumoyiddin_turayev">BAXTIYOR NAZIROV SAFAROVICH</string>
-    <string name="xumoyiddinturayev">\@Ismail_Allakov</string>
     <string name="termiz_davlat_universiteti">Denov tadbirkorlik va pedagogika instituti</string>
     <string name="muallif_fish">NAZIROV BAXTIYOR SAFAROVICH</string>
     <string name="muallif_haqida">Nazirov Baxtiyor Safarovich 1985 yil 1-oktyabrda Surxondaryo viloyati Denov tumanida tug‘ulgan. Oilali, 2 nafar farzandi bor. O‘zbekiston Milliy universitetini Tarix fakultetini 2004-2008 yil bakalavr, 2009-2011 yil magistratura bosqichini tamomlagan.
