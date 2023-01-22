@@ -50,11 +50,11 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     }
 
     private void initial() {
-        modelRcyclers.add(new ModelRcycler(R.drawable.fan_das,"Ma'ruzalar","(5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/umk.doc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.nam_fan,"Taqdimotlar","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/nam_dastur.pdf"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.mustaqil,"Mustaqi ta'lim","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/ish_dastur.pdf"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.fan_das,"Ma'ruzalar","(5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi uchun",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.nam_fan,"Taqdimotlar","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi uchun",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.mustaqil,"Mustaqi ta'lim","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/mustaqil_talim.pdf"));
         modelRcyclers.add(new ModelRcycler(R.drawable.izohli,"IZOHLI LUG'AT (GLOSARIY)                                         ","","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/Glossariy.doc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.test1,"FAN YUZASIDAN TEST SAVOLLARI","","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/fan_test.doc"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.test1,"FAN YUZASIDAN TEST SAVOLLARI","","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/test.doc"));
 
 
     }
