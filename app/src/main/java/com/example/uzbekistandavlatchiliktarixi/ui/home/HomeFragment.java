@@ -50,16 +50,11 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     }
 
     private void initial() {
-        modelRcyclers.add(new ModelRcycler(R.drawable.kirish,"Kirish","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun...","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/kirish.doc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.umk,"O'QUV USLUBIY MAJMUA","(5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/umk.doc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.nam_fan,"NA'MUNAVIY FAN DASTUR","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/nam_dastur.pdf"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.fan_das,"ISHCHI O'QUV DASTUR","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/ish_dastur.pdf"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.mustaqil,"MUSTAQIL TA'LIM UCHUN USLUBIY KO'RSATMA","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/mustaqil_ish.doc"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.fan_das,"Ma'ruzalar","(5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/umk.doc"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.nam_fan,"Taqdimotlar","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/nam_dastur.pdf"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.mustaqil,"Mustaqi ta'lim","5120300 - Tarix (mamlakatlar va mintaqalar bo’yicha) yo’nalishi 3-kurs uchun","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/ish_dastur.pdf"));
         modelRcyclers.add(new ModelRcycler(R.drawable.izohli,"IZOHLI LUG'AT (GLOSARIY)                                         ","","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/Glossariy.doc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.test1,"MAVZU YUZASIDAN TEST SAVOLLARI","","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/mavzu_test.doc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.test2,"FAN YUZASIDAN TEST SAVOLLARI","","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/fan_test.doc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.adabiyot,"ADABIYOTLAR","Azamat Ziyo. O‘zbek davlatchiligi tarixi: (Eng qadimgi davrdan Rossiya bosqiniga qadar). T., Sharq. 2000.\n" +
-                " Sagdullaev A.S., Mavlonov O‘. O‘zbekistonda davlat boshqaruvi tarixi. – T.: Akademiya, 2006.\n","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/adabiyotlar.doc"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.test1,"FAN YUZASIDAN TEST SAVOLLARI","","https://github.com/asadbekakmedov2001/UzbekistanDavlatchilikTarixi/raw/main/app/src/main/assets/fan_test.doc"));
 
 
     }
@@ -73,15 +68,9 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     @Override
     public void selectedUser(ModelRcycler modelRcycler) {
 
-        if (modelRcycler.getLessonName().toLowerCase().startsWith("kirish") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("o'quv") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("na'munaviy") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("mustaqil") ||
+        if (modelRcycler.getLessonName().toLowerCase().startsWith("mustaqil") ||
                 modelRcycler.getLessonName().toLowerCase().startsWith("izohli") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("mavzu") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("fan") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("adab") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("ishchi")
+                modelRcycler.getLessonName().toLowerCase().startsWith("fan")
         ){
 //
             startActivity(new Intent(getContext(), MainActivity3.class).putExtra("data",modelRcycler.getLoadUrl()));
